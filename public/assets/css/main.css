@@ -1,13 +1,16 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-
+@import url("base.css");
+@import url("layout.css");
+@import url("modules.css");
+@import url('state.css');
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -31,9 +34,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-}
+} */
 
-ol, ul {
+/* ol, ul {
 	list-style: none;
 }
 
@@ -49,12 +52,12 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
-body {
+/* body {
 	-webkit-text-size-adjust: none;
-}
-
+} */
+/* 
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -70,19 +73,19 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
-
+/* 
 	html {
 		box-sizing: border-box;
 	}
 
 	*, *:before, *:after {
 		box-sizing: inherit;
-	}
+	} */
 
-	body {
+	/* body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
@@ -100,9 +103,9 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
-	input, textarea, select {
+	/* input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -161,9 +164,9 @@ input, select, textarea {
 
 	em, i {
 		font-style: italic;
-	}
+	} */
 
-	a {
+	/* a {
 		text-decoration: none;
 		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -208,11 +211,11 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	} */
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
@@ -256,10 +259,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */
 
 /* Row */
-
+/* 
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -989,9 +992,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1320px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.row {
 				display: flex;
@@ -1479,9 +1482,9 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		} */
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -1724,11 +1727,11 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		} */
 
 /* Sections/Article */
 
-	section, article {
+	/* section, article {
 		margin-bottom: 3em;
 	}
 
@@ -1740,11 +1743,11 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		}
+		} */
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
 	}
@@ -1789,10 +1792,10 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
+			} */
 
 /* List */
-
+/* 
 	ul {
 		list-style: disc;
 		padding-left: 1em;
@@ -1809,11 +1812,11 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
 /* Icons */
 
-	ul.icons {
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1831,11 +1834,11 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
 /* Form */
 
-	form label {
+	/* form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
@@ -1902,10 +1905,10 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} */
 
 /* Table */
-
+/* 
 	table {
 		width: 100%;
 		text-align: left;
@@ -1933,10 +1936,10 @@ input, select, textarea {
 
 		table tfoot {
 			background: #eee;
-		}
+		} */
 
 /* Button */
-
+/* 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1975,11 +1978,11 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
-		}
+		} */
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1993,10 +1996,10 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
-
+/* 
 	.icon {
 		text-decoration: none;
 	}
@@ -2015,10 +2018,10 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */
 
 /* Header */
-
+/* 
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2042,8 +2045,8 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 375px;
-	}
-
+	} */
+/* 
 		#header .top {
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
@@ -2057,7 +2060,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			padding: 1.5em 0 0.75em 0;
-		}
+		} */
 
 			#header .bottom > :last-child {
 				margin-bottom: 0;
@@ -2190,7 +2193,7 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
+	/* #main {
 		margin-left: 375px;
 	}
 
@@ -2247,7 +2250,7 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			} */
 
 /* Wide */
 
